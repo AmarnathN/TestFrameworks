@@ -1,0 +1,3 @@
+2018-01-24 21:07:19 INFO  GenericUtilities:55 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-01-24 21:07:19 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-24 21:07:19 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time

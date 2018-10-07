@@ -1,0 +1,18 @@
+2018-01-25 00:24:21 INFO  GenericUtilities:55 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-01-25 00:24:22 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-25 00:24:22 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-25 00:24:25 INFO  ExcelUtilities:113 - Total Number Of sheets in WorkBook org.apache.poi.POIXMLProperties@9255c05null2
+2018-01-25 00:24:25 INFO  GenericSteps:30 - The test Data Used is : {EXECUTE=YES, UNIQUETESTCASEID=2, APPLICATIONTYPE=Application, FIRSTPRODUCTTYPE_IFNOTREQUIREDGIVENA=Deposit, FITSTPRODUCTOFFERTYPE=Westpac Transaction, SECONDPRODUCTTYPE_IFNOTREQUIREDGIVENA=NA, SECONDPRODUCTOFFERTYPE=NA}
+2018-01-25 00:24:37 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-25 00:24:37 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-25 00:24:37 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-25 00:25:45 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-25 00:25:45 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-25 00:25:45 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-25 00:25:50 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-25 00:25:50 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-25 00:25:50 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-25 00:26:05 INFO  ElementLocator:56 - xpath : //a[text()='Application']
+2018-01-25 00:26:06 INFO  ElementLocator:56 - xpath : //a[text()='Deposit']
+2018-01-25 00:26:11 INFO  ElementLocator:56 - xpath : //span[.='Westpac Transaction']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-25 00:26:17 INFO  ElementLocator:56 - xpath : //td[.='Start Application']

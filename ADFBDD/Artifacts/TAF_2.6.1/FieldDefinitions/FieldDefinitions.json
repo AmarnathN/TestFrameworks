@@ -1,0 +1,59 @@
+[
+  {
+    "pageName": "HomePage",
+    "name": "FastPath_TextBox",
+    "locateUsing": "xpath",
+    "locator": "(//input[contains(@id,'fastPathSubForm')])[1]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "RTD_Link_WithTitle",
+    "locateUsing": "xpath",
+    "locator": "//a[@title='DATA']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "RTD_Input_WithPlaceHolder",
+    "locateUsing": "xpath",
+    "locator": "//input[@placeholder='DATA']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "Login_Button",
+    "locateUsing": "xpath",
+    "locator": "//input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])"
+  },
+  {
+    "pageName": "LandingPage",
+    "name": "ApplicationType_Application_link",
+    "locateUsing": "xpath",
+    "locator": "//a[.='Application']"
+  },
+  
+  {
+    "pageName": "LandingPage",
+    "name": "ProductType_Lending_Link",
+    "locateUsing": "xpath",
+    "locator": "//a[.='Lending']"
+  },
+  {
+    "pageName": "LandingPage",
+    "name": "Offertype_WestPacHomeLoan_Checkbox",
+    "locateUsing": "xpath",
+    "locator": "//span[.='Westpac Home Loan']/ancestor::td/following-sibling::td//input[@type='checkbox']"
+  },
+  {
+    "pageName": "LandingPage",
+    "name": "Add_To_Cart_button",
+    "locateUsing": "xpath",
+    "locator": "(//td[.='Add to Cart'])[1]"
+  },
+  {
+    "pageName": "LandingPage",
+    "name": "Start_Application_Button",
+    "locateUsing": "xpath",
+    "locator": "//td[.='Start Application']"
+  } 
+  
+  
+]

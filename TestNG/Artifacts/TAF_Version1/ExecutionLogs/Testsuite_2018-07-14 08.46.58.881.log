@@ -1,0 +1,33 @@
+2018-07-14 08:46:58 INFO  OriginationTest:114 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 08:47:04 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:47:04 INFO  OriginationTest:86 - main : ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)
+2018-07-14 08:47:04 INFO  OriginationTest:91 - Level1 :ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)
+2018-07-14 08:47:04 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)
+2018-07-14 08:47:48 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)] -> xpath: //input[@aria-label='Google Search']] found
+2018-07-14 08:47:48 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 08:47:48 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)
+2018-07-14 08:47:48 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)] -> xpath: //input[@title='Search']] found
+2018-07-14 08:47:48 INFO  PageObject:65 - Data has been sent to Element
+2018-07-14 08:47:48 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)] -> xpath: //input[@aria-label='Google Search']] found
+2018-07-14 08:47:53 INFO  PageObject:93 - Clicked on the element [[ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)] -> xpath: //input[@aria-label='Google Search']]
+2018-07-14 08:47:54 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)] -> xpath: //*[contains(@id,'hdtbSum')]] found
+2018-07-14 08:47:54 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (e823192f913ca02d76d9dc004aa094a1)] -> xpath: //*[contains(@id,'hdtbSum')]] found
+2018-07-14 08:47:54 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : null java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+2018-07-14 08:48:24 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : (//div[contains(@id,'rso')]//div[@class='bkWMgd']//div[@class='g']//h3[@class='r']//a)[0] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@2bef51f2 (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 08:48:24 INFO  OriginationTest:96 - Logs_Into_The_ApplicationForm
+2018-07-14 08:48:30 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:48:30 INFO  OriginationTest:86 - main : ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)
+2018-07-14 08:48:30 INFO  OriginationTest:91 - Level1 :ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)
+2018-07-14 08:48:30 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)
+2018-07-14 08:48:55 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)] -> xpath: //input[@aria-label='Google Search']] found
+2018-07-14 08:48:55 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 08:48:55 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)
+2018-07-14 08:48:55 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)] -> xpath: //input[@title='Search']] found
+2018-07-14 08:48:55 INFO  PageObject:65 - Data has been sent to Element
+2018-07-14 08:48:55 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)] -> xpath: //input[@aria-label='Google Search']] found
+2018-07-14 08:48:58 INFO  PageObject:93 - Clicked on the element [[ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)] -> xpath: //input[@aria-label='Google Search']]
+2018-07-14 08:48:58 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)] -> xpath: //*[contains(@id,'hdtbSum')]] found
+2018-07-14 08:48:58 INFO  fluentWait:62 - Target element : [[ChromeDriver: chrome on XP (ebc368f0a6fab6d0dae09b6e01f25999)] -> xpath: //*[contains(@id,'hdtbSum')]] found
+2018-07-14 08:48:58 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : null java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+2018-07-14 08:49:28 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : (//div[contains(@id,'rso')]//div[@class='bkWMgd']//div[@class='g']//h3[@class='r']//a)[0] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@2bef51f2 (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 08:49:28 INFO  OriginationTest:96 - Logs_Into_The_ApplicationForm

@@ -1,0 +1,9 @@
+2018-07-14 07:47:55 INFO  OriginationTest:113 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 07:48:00 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 07:48:00 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (75c0ea630d858c75f20ebf5a78caf12b)
+2018-07-14 07:48:00 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (75c0ea630d858c75f20ebf5a78caf12b)
+2018-07-14 07:48:00 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (75c0ea630d858c75f20ebf5a78caf12b)
+2018-07-14 07:48:26 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 07:48:26 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (6e54849cef0d71d122156f35c32490f7)
+2018-07-14 07:48:26 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (6e54849cef0d71d122156f35c32490f7)
+2018-07-14 07:48:26 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (6e54849cef0d71d122156f35c32490f7)

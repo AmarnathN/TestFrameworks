@@ -1,0 +1,20 @@
+2018-07-14 14:56:00 INFO  OriginationTest:114 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 14:56:00 INFO  OriginationTest:114 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 14:56:07 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-07-14 14:56:07 INFO  OriginationTest:86 - main : ChromeDriver: chrome on XP (c4bd997e91d3b32f0c98eb5c14b6acae)
+2018-07-14 14:56:07 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-07-14 14:56:07 INFO  OriginationTest:86 - main : ChromeDriver: chrome on XP (a22a3e46aff092f8a9217b43e5163805)
+2018-07-14 14:56:07 INFO  OriginationTest:91 - Level1 :ChromeDriver: chrome on XP (c4bd997e91d3b32f0c98eb5c14b6acae)
+2018-07-14 14:56:07 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (c4bd997e91d3b32f0c98eb5c14b6acae)
+2018-07-14 14:56:07 INFO  OriginationTest:91 - Level1 :ChromeDriver: chrome on XP (a22a3e46aff092f8a9217b43e5163805)
+2018-07-14 14:56:07 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (a22a3e46aff092f8a9217b43e5163805)
+2018-07-14 14:56:39 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : //input[@aria-label='Google Search'] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@9fecb0f (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 14:56:39 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 14:56:39 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (c4bd997e91d3b32f0c98eb5c14b6acae)
+2018-07-14 14:56:42 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : //input[@aria-label='Google Search'] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@9fecb0f (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 14:56:42 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 14:56:42 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (a22a3e46aff092f8a9217b43e5163805)
+2018-07-14 14:57:09 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : //input[@title='Search'] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@9fecb0f (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 14:57:12 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : //input[@title='Search'] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@9fecb0f (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 14:57:39 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : //input[@aria-label='Google Search'] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@9fecb0f (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 14:57:42 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : //input[@aria-label='Google Search'] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@9fecb0f (tried for 30 second(s) with 50 NANOSECONDS interval)

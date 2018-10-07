@@ -1,0 +1,16 @@
+2018-01-24 20:03:24 INFO  GenericUtilities:55 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-01-24 20:03:24 INFO  ExcelUtilities:113 - Total Number Of sheets in WorkBook org.apache.poi.POIXMLProperties@4c39f47dnull2
+2018-01-24 20:03:24 INFO  OBPStepDefinitions:34 - The test Data Used is : {EXECUTE=YES, UNIQUETESTCASEID=2, APPLICATIONTYPE=Application, FIRSTPRODUCTTYPE_IFNOTREQUIREDGIVENA=Deposit, FITSTPRODUCTOFFERTYPE=Westpac Personal Term Deposit Group, SECONDPRODUCTTYPE_IFNOTREQUIREDGIVENA=NA, SECONDPRODUCTOFFERTYPE=NA}
+2018-01-24 20:03:32 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-24 20:03:32 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-24 20:03:32 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-24 20:03:36 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-24 20:03:37 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-24 20:03:37 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-24 20:03:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-24 20:03:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-24 20:03:41 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-24 20:03:46 INFO  ElementLocator:56 - xpath : //a[text()='Application']
+2018-01-24 20:03:46 INFO  ElementLocator:56 - xpath : //a[text()='Deposit']
+2018-01-24 20:03:52 INFO  ElementLocator:56 - xpath : //span[.='Westpac Personal Term Deposit Group']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-24 20:03:58 INFO  ElementLocator:56 - xpath : //td[.='Start Application']

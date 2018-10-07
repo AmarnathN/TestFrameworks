@@ -1,0 +1,13 @@
+2018-07-14 08:12:22 INFO  OriginationTest:113 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 08:12:27 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:12:27 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (5337d235dcdf0d79b98a17af0e6a8c7b)
+2018-07-14 08:12:27 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (5337d235dcdf0d79b98a17af0e6a8c7b)
+2018-07-14 08:12:27 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (5337d235dcdf0d79b98a17af0e6a8c7b)
+2018-07-14 08:12:49 INFO  fluentWait:62 - Target element found
+2018-07-14 08:12:49 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 08:12:49 ERROR TestData:131 - Invalid Input Test Data Parameter referred 
+2018-07-14 08:12:49 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (5337d235dcdf0d79b98a17af0e6a8c7b)
+2018-07-14 08:12:49 INFO  fluentWait:62 - Target element found
+2018-07-14 08:12:49 ERROR PageObject:70 - Exception in Entering Keys : java.lang.NullPointerException
+2018-07-14 08:12:50 INFO  fluentWait:62 - Target element found
+2018-07-14 08:12:50 INFO  PageObject:93 - Clicked on the element [[ChromeDriver: chrome on XP (5337d235dcdf0d79b98a17af0e6a8c7b)] -> xpath: //input[@aria-label='Google Search']]

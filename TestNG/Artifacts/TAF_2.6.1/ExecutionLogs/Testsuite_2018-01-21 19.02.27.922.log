@@ -1,0 +1,47 @@
+2018-01-21 19:02:28 INFO  TestClass:56 - log4j properties filepath: D:\eclipse-workspace\TestNG\Artifacts\Settings\log4j.properties
+2018-01-21 19:02:33 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 19:02:33 INFO  OriginationTest:63 - main : ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)
+2018-01-21 19:02:33 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 19:02:33 INFO  OriginationTest:63 - main : ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)
+2018-01-21 19:02:33 INFO  OriginationTest:69 - Level1 :ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)
+2018-01-21 19:02:33 INFO  OriginationTest:69 - Level1 :ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)
+2018-01-21 19:02:33 INFO  LoginSteps:26 - Level2 :ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)
+2018-01-21 19:02:33 INFO  LoginSteps:31 - Level3 :ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)
+2018-01-21 19:02:33 INFO  BasePageofOrigination:17 - Level4 :ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)
+2018-01-21 19:02:33 INFO  LoginSteps:26 - Level2 :ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)
+2018-01-21 19:02:33 INFO  LoginSteps:31 - Level3 :ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)
+2018-01-21 19:02:33 INFO  BasePageofOrigination:17 - Level4 :ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)
+2018-01-21 19:02:41 INFO  fluentWait:96 - Target element found
+2018-01-21 19:02:41 INFO  fluentWait:96 - Target element found
+2018-01-21 19:02:41 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:02:41 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:02:41 INFO  fluentWait:96 - Target element found
+2018-01-21 19:02:41 INFO  fluentWait:96 - Target element found
+2018-01-21 19:02:41 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:02:41 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:02:41 INFO  fluentWait:96 - Target element found
+2018-01-21 19:02:41 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:03 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 19:03:03 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:03 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 19:03:03 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:03 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:03 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:03 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:03:04 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:03:05 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:05 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:05 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)] -> xpath: //a[@title='Open page']]
+2018-01-21 19:03:05 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)] -> xpath: //a[@title='Open page']]
+2018-01-21 19:03:08 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:08 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:08 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:03:09 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:03:09 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:09 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:09 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:03:09 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 19:03:09 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:09 INFO  fluentWait:96 - Target element found
+2018-01-21 19:03:25 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (a70a1ca191a8f300d9a618d039e0d198)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 19:03:25 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (b522cd79994951becc63e54cb8e490b2)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]

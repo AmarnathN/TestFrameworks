@@ -1,0 +1,8 @@
+2018-07-14 08:03:28 INFO  OriginationTest:113 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 08:03:37 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:03:37 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (b42895baaff6f40f164ac597aa5815f6)
+2018-07-14 08:03:37 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (b42895baaff6f40f164ac597aa5815f6)
+2018-07-14 08:03:37 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (b42895baaff6f40f164ac597aa5815f6)
+2018-07-14 08:06:57 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 08:06:57 ERROR TestData:131 - Invalid Input Test Data Parameter referred 
+2018-07-14 08:06:57 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (b42895baaff6f40f164ac597aa5815f6)

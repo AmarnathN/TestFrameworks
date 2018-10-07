@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="serenity.CucumberRunner.Runnner" time="0" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\eclipse-workspace\ADFBDD"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\eclipse-workspace\ADFBDD"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\namarnat\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4607315077441100749.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\namarnat\AppData\Local\Microsoft\WindowsApps;C:\Users\namarnat\AppData\Roaming\npm;C:\Users\namarnat\AppData\Local\atom\bin;D:\EclipseOxygen\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\namarnat"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="namarnat"/>
+    <property name="java.class.path" value="D:\EclipseOxygen\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\eclipse-workspace\ADFBDD\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="initializationError" classname="serenity.CucumberRunner.Runnner" time="0">
+    <error message="Not a file or directory: D:\ADFBDD\Artifacts\TAF_2.6.1\Features\BisConfig\myFeature1.feature" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Not a file or directory: D:\ADFBDD\Artifacts\TAF_2.6.1\Features\BisConfig\myFeature1.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:54)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:20)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:103)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:54)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:34)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:239)
+	at cucumber.api.junit.Cucumber.<init>(Cucumber.java:62)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.<init>(CucumberWithSerenity.java:38)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[00:22:07.024 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.provided.type=mydriver
+00:22:07.032 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - ofss.serenity.serenity.test.root=net.serenitybdd.samples.junit.serenity.features
+00:22:07.032 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=QUIET
+00:22:07.032 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=provided
+00:22:07.032 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.chrome.driver=Artifacts//resourses//chromedriver.exe
+00:22:07.033 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+00:22:07.033 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.provided.mydriver=com.ofss.selenium.helpers.DriverManager
+00:22:07.033 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
+Setting runtime options in createRuntime()
+{Application Type=Application, Execute=YES, Product Type=Lending, Product Offer=Westpac Home Loan, Amount=10.00, Value=3}
+{Application Type=Application, Execute=YES, Product Type=Deposit, Product Offer=Westpac Personal Term Deposit Group, Amount=10.00, Value=7}
+00:22:08.979 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+00:22:08.979 [main] DEBUG n.t.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@7fcff1b9(format = Optional.of(XML))
+00:22:09.041 [main] DEBUG n.t.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4a31c2ee(format = Optional.of(JSON))
+00:22:09.041 [main] DEBUG n.t.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4a31c2ee
+00:22:09.135 [main] DEBUG n.t.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@247667dd(format = Optional.of(HTML))
+00:22:09.135 [main] DEBUG n.t.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@247667dd
+00:22:09.151 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+00:22:09.151 [main] DEBUG n.t.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@1d782abe(format = Optional.of(XML))
+00:22:09.151 [main] DEBUG n.t.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6df7988f(format = Optional.of(JSON))
+00:22:09.151 [main] DEBUG n.t.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6df7988f
+00:22:09.166 [main] DEBUG n.t.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@27b22f74(format = Optional.of(HTML))
+00:22:09.166 [main] DEBUG n.t.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@27b22f74
+Setting runtime options in createRuntime()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/namarnat/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/namarnat/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+  </testcase>
+</testsuite>

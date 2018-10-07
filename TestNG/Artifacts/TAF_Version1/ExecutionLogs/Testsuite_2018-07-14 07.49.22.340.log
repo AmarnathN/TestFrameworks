@@ -1,0 +1,19 @@
+2018-07-14 07:49:22 INFO  OriginationTest:113 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 07:49:27 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 07:49:27 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (b86b038baf0d1ddee2859b647e133c5b)
+2018-07-14 07:49:27 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (b86b038baf0d1ddee2859b647e133c5b)
+2018-07-14 07:49:27 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (b86b038baf0d1ddee2859b647e133c5b)
+2018-07-14 07:49:49 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 07:49:49 ERROR TestData:131 - Invalid Input Test Data Parameter referred 
+2018-07-14 07:49:49 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (b86b038baf0d1ddee2859b647e133c5b)
+2018-07-14 07:49:49 ERROR PageObject:70 - Exception in Entering Keys : java.lang.NullPointerException
+2018-07-14 07:49:49 ERROR PageObject:98 - Exception in Clicking Webelement : null java.lang.NullPointerException
+2018-07-14 07:49:52 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 07:49:52 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (97533bc41fd47ab07f9b728acfaabb87)
+2018-07-14 07:49:52 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (97533bc41fd47ab07f9b728acfaabb87)
+2018-07-14 07:49:52 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (97533bc41fd47ab07f9b728acfaabb87)
+2018-07-14 07:50:14 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 07:50:14 ERROR TestData:131 - Invalid Input Test Data Parameter referred 
+2018-07-14 07:50:14 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (97533bc41fd47ab07f9b728acfaabb87)
+2018-07-14 07:50:14 ERROR PageObject:70 - Exception in Entering Keys : java.lang.NullPointerException
+2018-07-14 07:50:14 ERROR PageObject:98 - Exception in Clicking Webelement : null java.lang.NullPointerException

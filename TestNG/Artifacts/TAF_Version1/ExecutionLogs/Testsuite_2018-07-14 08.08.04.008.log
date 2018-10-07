@@ -1,0 +1,16 @@
+2018-07-14 08:08:04 INFO  OriginationTest:113 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 08:08:09 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:08:09 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (22c0b23856760ce25932cdfeca6346ed)
+2018-07-14 08:08:09 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (22c0b23856760ce25932cdfeca6346ed)
+2018-07-14 08:08:09 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (22c0b23856760ce25932cdfeca6346ed)
+2018-07-14 08:08:38 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : null java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+2018-07-14 08:08:38 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 08:08:38 ERROR TestData:131 - Invalid Input Test Data Parameter referred 
+2018-07-14 08:08:38 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (22c0b23856760ce25932cdfeca6346ed)
+2018-07-14 08:08:38 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : null java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+2018-07-14 08:08:38 ERROR PageObject:70 - Exception in Entering Keys : java.lang.NullPointerException
+2018-07-14 08:08:38 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : null java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+2018-07-14 08:08:41 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:08:41 INFO  OriginationTest:85 - main : ChromeDriver: chrome on XP (8d1d9efd384c490bfdd4366d56edc2c3)
+2018-07-14 08:08:41 INFO  OriginationTest:90 - Level1 :ChromeDriver: chrome on XP (8d1d9efd384c490bfdd4366d56edc2c3)
+2018-07-14 08:08:41 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (8d1d9efd384c490bfdd4366d56edc2c3)

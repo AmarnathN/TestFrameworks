@@ -1,0 +1,21 @@
+2018-07-14 08:36:17 INFO  OriginationTest:114 - log4j properties filepath: D:\Amarnath\TestNG\Artifacts\Settings\log4j.properties
+2018-07-14 08:36:24 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:36:24 INFO  OriginationTest:86 - main : ChromeDriver: chrome on XP (6964c88bb0b03134a3a7d9e81c94cded)
+2018-07-14 08:36:24 INFO  OriginationTest:91 - Level1 :ChromeDriver: chrome on XP (6964c88bb0b03134a3a7d9e81c94cded)
+2018-07-14 08:36:24 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (6964c88bb0b03134a3a7d9e81c94cded)
+2018-07-14 08:36:47 INFO  fluentWait:62 - Target element found
+2018-07-14 08:36:47 INFO  GoogleSearch:19 - Is On Home Page
+2018-07-14 08:36:47 INFO  GoogleModuleSteps:39 - Level2 :ChromeDriver: chrome on XP (6964c88bb0b03134a3a7d9e81c94cded)
+2018-07-14 08:36:47 INFO  fluentWait:62 - Target element found
+2018-07-14 08:36:47 INFO  PageObject:65 - Data has been sent to Element
+2018-07-14 08:36:47 INFO  fluentWait:62 - Target element found
+2018-07-14 08:36:50 INFO  PageObject:93 - Clicked on the element [[ChromeDriver: chrome on XP (6964c88bb0b03134a3a7d9e81c94cded)] -> xpath: //input[@aria-label='Google Search']]
+2018-07-14 08:36:50 INFO  fluentWait:62 - Target element found
+2018-07-14 08:36:50 INFO  fluentWait:62 - Target element found
+2018-07-14 08:36:50 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : null java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+2018-07-14 08:37:20 ERROR ElementLocator:87 -  Exception in finding Element with Xpath : (//div[contains(@id,'rso')]//div[@class='bkWMgd']//div[@class='g']//h3[@class='r']//a)[0] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.helpers.fluentWait$2@2bef51f2 (tried for 30 second(s) with 50 NANOSECONDS interval)
+2018-07-14 08:37:20 INFO  OriginationTest:96 - Logs_Into_The_ApplicationForm
+2018-07-14 08:37:26 INFO  DriverManager:63 - Chrome has been opned for testing
+2018-07-14 08:37:26 INFO  OriginationTest:86 - main : ChromeDriver: chrome on XP (9e92656340692d6c2f59c55f60734137)
+2018-07-14 08:37:26 INFO  OriginationTest:91 - Level1 :ChromeDriver: chrome on XP (9e92656340692d6c2f59c55f60734137)
+2018-07-14 08:37:26 INFO  GoogleModuleSteps:26 - Level2 :ChromeDriver: chrome on XP (9e92656340692d6c2f59c55f60734137)

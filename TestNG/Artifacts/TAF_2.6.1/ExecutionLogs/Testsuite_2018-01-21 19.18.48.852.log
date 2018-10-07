@@ -1,0 +1,4 @@
+2018-01-21 19:18:48 INFO  TestClass:56 - log4j properties filepath: D:\eclipse-workspace\TestNG\Artifacts\Settings\log4j.properties
+2018-01-21 19:18:53 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 19:18:53 INFO  OriginationTest:64 - main : ChromeDriver: chrome on XP (2ff2f2da2ac683ca778e50476da70918)
+2018-01-21 19:18:53 INFO  OriginationTest:70 - Level1 :ChromeDriver: chrome on XP (2ff2f2da2ac683ca778e50476da70918)

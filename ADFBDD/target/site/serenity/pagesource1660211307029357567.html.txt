@@ -1,0 +1,45 @@
+<html><head>
+        <link href="newErrorPageTemplate.css" rel="stylesheet" type="text/css">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>This site isn’t secure</title>
+
+        <script language="javascript" src="invalidcert.js" type="text/javascript">
+        </script>
+        <script language="javascript" src="errorPageStrings.js" type="text/javascript">
+        </script>
+        <script language="javascript" src="httpErrorPagesScripts.js" type="text/javascript">
+        </script>
+    </head>
+    <body onload="BodyLoad(); initMoreInfo('infoBlockID');">
+        <div class="mainContent" id="contentContainer">
+            <div class="title" id="invalidcert_mainTitle" style="color: rgb(169, 0, 0);">This site is not secure</div>
+            <div class="BodyTextBlockStyle" id="invalidcert_subError">
+                This might mean that someone’s trying to fool you or steal any info you send to the server. You should close this site immediately.<br><br>
+            </div>
+            <div class="BaseTextBlockStyle"><a href="javascript:close();"><img width="20" height="20" class="shieldImage" alt="Recommended icon" src="shieldcheck.ico"><id id="invalidcert_closeTab">Close this tab</id></a><br></div>
+
+            <div align="left" id="moreInformationAlign" aria-labelledby="moreInformation">
+                <table>
+                    <tbody><tr>
+                        <td aria-labelledby="infoBlockIDImage" valign="top">
+                            <a onclick="javascript:expandCollapse('infoBlockID', true); return false;" href="#"><img class="actionIcon" id="infoBlockIDImage" alt="More information" src="down.png" border="0"></a>
+                        </td>
+                        <td valign="top">
+                            <span id="moreInfoContainer"><a href="javascript:expandCollapse('infoBlockID', true);">More information</a></span>
+                            
+                        </td>
+                    </tr>
+                </tbody></table>
+
+                <div class="infoBlock" id="infoBlockID" style="display: none;">
+                    <br>
+                    <b><span id="certReason" style="margin-left: 20px;">Your PC doesn’t trust this website’s security certificate.</span></b>
+                    <p id="ErrorCode" style="margin-left: 20px;">Error Code: DLG_FLAGS_INVALID_CA</p>
+                    <p class="BaseTextBlockStyle" id="override" style="margin-left: 20px;"><a id="overridelink" href="https://whf00blk.in.oracle.com:9001/com.ofss.fc.ui.view/faces/main.jspx"><img width="20" height="20" class="shieldImage" alt="Not recommended icon" src="shieldcritical.ico">Go on to the webpage (not recommended)</a></p>
+                </div>
+            </div>
+        </div>
+    
+
+</body></html>

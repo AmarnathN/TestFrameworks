@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="75161e1ba1a0c73f5f5e0df9da23a3be27a39d4e13a6187aa2a7d61b983ea88a.html">Homeloan</a>
+                > <a
+                    href="785a6fffcc2f1d9540e2d3e0a123352991c9e1a4a1b52a3ea3dca0e6ad0fa9bc.html">Submit  the  application  form2 </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-12-2017 21:57</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Homeloan</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="1eefdb910c7c1436041a372a9b9f6f497c05a489d182dc7a54d81940bf8f9a3d.html">Documents
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Submit  The  Application  Form2
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Logs  into  the  application: OFSSUSER, welcome1, OR097<br>Select  the  products  for  application: &lt;Application Type&gt;, &lt;Product Type&gt;, &lt;Product Offer&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9f692abdf132817ebe2594bc875026766dd195cb1052e08404812fb3f38f7071.png" title="Logs  into  the  application: OFSSUSER, welcome1, OR097" width="960"/>
+                <img src="scaled_b3d241a120ea0c5b4ed64d036e778cd39d9f32dce62610c08eb4f44e7966eea0.png" title="Logs  into  the  application: OFSSUSER, welcome1, OR097" width="960"/>
+                <img src="9f692abdf132817ebe2594bc875026766dd195cb1052e08404812fb3f38f7071.png" title="Is on the home page" width="960"/>
+                <img src="805fe47854991bd184989dcffdc83d8bbb732df0ef39d7cad19cdb5f8696f93a.png" title="Is on the home page" width="960"/>
+                <img src="805fe47854991bd184989dcffdc83d8bbb732df0ef39d7cad19cdb5f8696f93a.png" title="Logs into application: OFSSUSER, welcome1" width="960"/>
+                <img src="b0967f589a1498598e408d035ff9e76a45e379d533485a76dac2a551dcbbe6fb.png" title="Should be on landing page" width="960"/>
+                <img src="b0967f589a1498598e408d035ff9e76a45e379d533485a76dac2a551dcbbe6fb.png" title="Go to page using fast path: OR097" width="960"/>
+                <img src="2cb57198f48905b9b28b583c68c567760a84f14e824d4edb68ce89c7293c6b33.png" title="Go to page using fast path: OR097" width="960"/>
+                <img src="2cb57198f48905b9b28b583c68c567760a84f14e824d4edb68ce89c7293c6b33.png" title="Login to application form" width="960"/>
+                <img src="b3d241a120ea0c5b4ed64d036e778cd39d9f32dce62610c08eb4f44e7966eea0.png" title="Login to application form" width="960"/>
+                <img src="scaled_d350df5a57617b86ae741defb287c3b0462da83b8f31492ff3d3623622fa5429.png" title="Select  the  products  for  application: Application, Lending, Westpac Home Loan" width="960"/>
+                <img src="scaled_470920815b11b19df48e94d0b0f90bd21aae27617364ffa7aa121a8245373ee4.png" title="Select the application of type : Application" width="960"/>
+                <img src="470920815b11b19df48e94d0b0f90bd21aae27617364ffa7aa121a8245373ee4.png" title="Select the new Product of type : Lending" width="960"/>
+                <img src="470920815b11b19df48e94d0b0f90bd21aae27617364ffa7aa121a8245373ee4.png" title="Select the Product offer  : Westpac Home Loan and Add to Cart" width="960"/>
+                <img src="scaled_a979d8e8f2cea69abc8c11df7eac3e87cec9ecbb06f432cc0784592342b09c04.png" title="Select the Product offer  : Westpac Home Loan and Add to Cart" width="960"/>
+                <img src="a979d8e8f2cea69abc8c11df7eac3e87cec9ecbb06f432cc0784592342b09c04.png" title="Start the application" width="960"/>
+                <img src="d350df5a57617b86ae741defb287c3b0462da83b8f31492ff3d3623622fa5429.png" title="Start the application: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>

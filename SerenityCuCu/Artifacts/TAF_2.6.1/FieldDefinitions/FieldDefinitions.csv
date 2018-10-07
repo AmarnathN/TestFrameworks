@@ -1,0 +1,17 @@
+SCREENNAME,FIELDNAME,LOCATORTYPE,FIELDDEFINITION
+HomePage,FastPath_TextBox,xpath,"(//input[contains(@id,'fastPathSubForm')])[1]"
+GENERIC,RTD_Link_WithTitle,xpath,//a[@title='DATA']
+GENERIC,RTD_Link_WithText,xpath,//a[text()='DATA']
+GENERIC,RTD_Link_WithTitleContains,xpath,"//a[contains(@title,'DATA')]"
+GENERIC,RTD_Link_WithTextContains,xpath,"//a[contains(text(),'DATA')]"
+GENERIC,RTD_Input_WithPlaceHolder,xpath,//input[@placeholder='DATA']
+GENERIC,RTD_Button_WithText,xpath,//button[.='DATA']
+GENERIC,RTD_Button_LinkWithText,xpath,//span[.='DATA']/parent::a
+GENERIC,RTD_Input_WIthLabel,xpath,//label[.='DATA']/preceding-sibling::input
+HomePage,Login_Button,xpath,//input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+LandingPage,RTD_ProductOffer_Link,xpath,//span[.='DATA']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+LandingPage,StartApplication_Button,xpath,//td[.='Start Application']
+Product-PartyDetails,RTD_PartySearch_BasedOn_RadioButton,xpath,//label[text()='DATA']/preceding-sibling::span[1]/input[@type='radio']
+Product-PartyDetails,PartyType_DropdownList,xpath,//label[text()='Party Type']/ ../following-sibling::td//select
+Product-PartyDetails,Product_AdvancedSerach_SearchResults_FirstRowSelect,xpath,"//span[contains(text(),'Party ID')]/ancestor::div[2]/following-sibling::div[1]//table//tr[1]"
+Product-PartyDetails,Party_AdvanceSearch_Ok_button,xpath,"(//div[contains(@id,'regionPartySearchTaskFlow')])[1]/parent::div/following-sibling::div//button[.='Ok']"

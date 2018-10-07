@@ -1,0 +1,12 @@
+2018-05-05 17:57:18 INFO  GenericUtilities:66 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-05-05 17:57:18 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-05-05 17:57:18 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-05-05 17:57:18 INFO  ExcelUtilities:113 - Total Number Of sheets in WorkBook org.apache.poi.POIXMLProperties@7c51782dnull3
+2018-05-05 17:57:18 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-05-05 17:57:18 ERROR ExcelUtilities:90 - java.lang.NullPointerException
+2018-05-05 17:57:18 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-05-05 17:57:18 ERROR ExcelUtilities:90 - java.lang.NullPointerException
+2018-05-05 17:57:35 INFO  ElementLocator:35 - xpath  :  //input[@placeholder='Username']
+2018-05-05 17:57:39 INFO  ElementLocator:57 - xpath : //input[@placeholder='Username']   : null
+2018-05-05 17:57:39 ERROR WebUIElement:39 - Exception in Entering Keys : java.lang.NullPointerException
+2018-05-05 17:57:39 INFO  ElementLocator:35 - xpath  :  //input[@placeholder='Password']

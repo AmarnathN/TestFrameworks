@@ -1,0 +1,11 @@
+SCREENNAME,FIELDNAME,LOCATORTYPE,FIELDDEFINITION
+HomePage,FastPath_TextBox,xpath,"(//input[contains(@id,'fastPathSubForm')])[1]"
+GENERIC,RTD_Link_WithTitle,xpath,//a[@title='DATA']
+GENERIC,RTD_Link_WithText,xpath,//a[text()='DATA']
+GENERIC,RTD_Link_WithTitleContains,xpath,"//a[contains(@title,'DATA')]"
+GENERIC,RTD_Link_WithTextContains,xpath,"//a[contains(text(),'DATA')]"
+GENERIC,RTD_Input_WithPlaceHolder,xpath,//input[@placeholder='DATA']
+GENERIC,RTD_Button,xpath,//button[.='DATA']
+HomePage,Login_Button,xpath,//input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+LandingPage,RTD_ProductOffer_Link,xpath,//span[.='DATA']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+LandingPage,StartApplication_Button,xpath,//td[.='Start Application']

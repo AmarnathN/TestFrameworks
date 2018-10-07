@@ -1,0 +1,6 @@
+2018-01-24 19:34:33 INFO  GenericUtilities:55 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-01-24 19:34:35 INFO  ExcelUtilities:113 - Total Number Of sheets in WorkBook org.apache.poi.POIXMLProperties@b84d035null2
+2018-01-24 19:34:35 INFO  OBPStepDefinitions:34 - The test Data Used is : {EXECUTE=YES, UNIQUETESTCASEID=1, APPLICATIONTYPE=Application, FIRSTPRODUCTTYPE_IFNOTREQUIREDGIVENA=Lending, FITSTPRODUCTOFFERTYPE=Westpac Home Loan, SECONDPRODUCTTYPE_IFNOTREQUIREDGIVENA=Lending, SECONDPRODUCTOFFERTYPE=Westpac Home Loan}
+2018-01-24 19:34:43 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-24 19:34:43 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-24 19:34:44 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])

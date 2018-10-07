@@ -1,0 +1,362 @@
+2018-01-02 22:53:47 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 22:53:47 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 22:53:47 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 22:53:47 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 22:57:30 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 22:57:30 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 22:57:30 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 22:57:30 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 22:57:31 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 22:57:31 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 22:57:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 22:57:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 22:57:41 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 22:59:24 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 22:59:24 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 22:59:24 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 22:59:24 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 22:59:24 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 22:59:24 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 22:59:34 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 22:59:34 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 22:59:34 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:01:11 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:01:11 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:01:11 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:01:11 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:01:12 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 23:01:12 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 23:01:22 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:01:22 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:01:22 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:02:41 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:02:41 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:02:41 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:02:41 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:02:42 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 23:02:42 ERROR TestData:99 - Invalid Global Test Data Parameter referred 
+2018-01-02 23:02:51 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:02:51 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:02:51 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:05:41 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:05:41 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:05:41 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:05:41 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:05:52 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:05:52 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:05:52 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:07:42 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:07:42 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:07:42 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:07:42 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:07:53 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:07:53 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:07:53 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:10:45 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:10:45 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:10:45 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:10:45 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:10:56 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:10:56 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:10:56 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:12:56 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:12:56 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:12:56 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:12:56 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:13:07 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:13:07 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:13:07 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:14:06 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:14:06 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:14:06 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:14:06 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:14:07 ERROR TestData:100 - Invalid Global Test Data Parameter referred 
+2018-01-02 23:14:07 ERROR TestData:100 - Invalid Global Test Data Parameter referred 
+2018-01-02 23:14:16 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:14:16 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:14:16 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:15:17 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:15:17 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:15:17 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:15:17 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:15:27 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:15:27 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:15:27 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:20:12 INFO  ExecutionSettings:265 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned ON in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to false. Turn this OFF to continue test case execution despite major checkpoint failures
+2018-01-02 23:20:17 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:20:17 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:20:17 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:20:17 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:20:28 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:20:28 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:20:28 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:21:54 INFO  ExecutionSettings:265 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned ON in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to false. Turn this OFF to continue test case execution despite major checkpoint failures
+2018-01-02 23:21:59 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:21:59 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:21:59 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:21:59 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:22:10 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:22:10 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:22:10 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:23:01 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:23:07 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:23:07 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:23:07 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:23:07 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:23:17 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:23:18 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:23:18 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:25:12 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:25:12 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:25:17 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:25:17 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:25:17 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:25:17 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:25:27 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:25:27 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:25:27 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:26:52 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:26:52 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:26:56 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:26:56 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:26:57 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:26:57 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:26:57 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:26:57 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:27:07 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:27:07 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:27:07 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:34:07 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:34:07 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:34:13 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:34:13 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:34:13 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:34:13 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:34:24 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:34:24 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:34:24 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:34:25 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:34:25 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:37:25 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:37:25 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:37:30 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:37:30 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:37:30 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:37:30 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:37:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:37:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:37:41 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:37:42 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:37:42 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:40:16 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:40:16 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:40:22 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:40:22 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:40:22 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:40:22 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:40:33 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:40:33 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:40:33 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:40:34 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:40:34 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:42:44 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:42:44 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:42:44 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:42:44 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:42:44 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-01-02 23:42:44 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:42:44 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-01-02 23:42:44 ERROR ExcelUtilities:90 - java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+2018-01-02 23:52:43 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:52:53 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:52:53 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:52:53 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:52:53 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:52:53 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:53:05 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-02 23:53:16 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-02 23:53:26 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-02 23:53:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:53:41 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:53:41 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:53:53 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-02 23:54:03 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-02 23:54:14 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-02 23:54:25 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-02 23:54:31 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:54:40 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:54:40 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:54:40 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:54:41 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:54:41 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-02 23:54:52 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-02 23:54:55 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-02 23:54:55 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-02 23:55:01 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-02 23:55:01 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-02 23:55:01 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-02 23:55:23 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-02 23:55:34 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-02 23:55:45 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-02 23:55:45 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-03 14:17:58 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:17:58 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:18:06 INFO  stepDefinitions:57 - Exception In reading Test Data 
+2018-01-03 14:19:25 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:19:25 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:19:32 INFO  stepDefinitions:47 - The test Data Used is : {APPLICATION TYPE=Application, EXECUTE=YES, UNIQUETESTCASEID=1, PRODUCT TYPE=Lending, PRODUCT OFFER=Westpac Home Loan, AMOUNT=10.00, VALUE=3, FASTPATH=OR097}
+2018-01-03 14:19:47 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-03 14:19:47 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-03 14:19:47 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-03 14:19:50 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:19:50 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:56:54 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:56:54 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 14:57:02 INFO  stepDefinitions:47 - The test Data Used is : {APPLICATION TYPE=Application, EXECUTE=YES, UNIQUETESTCASEID=1, PRODUCT TYPE=Lending, PRODUCT OFFER=Westpac Home Loan, AMOUNT=10.00, VALUE=3, FASTPATH=OR097}
+2018-01-03 14:57:15 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-03 14:57:15 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-03 14:57:15 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-03 14:57:27 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-03 14:57:38 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-03 14:57:48 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-03 14:58:13 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-03 14:58:23 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-03 14:58:33 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-03 14:58:34 ERROR TestData:116 - Invalid Input Test Data Parameter referred 
+2018-01-03 14:58:34 ERROR TestData:116 - Invalid Input Test Data Parameter referred 
+2018-01-03 14:58:34 ERROR TestData:116 - Invalid Input Test Data Parameter referred 
+2018-01-03 14:58:45 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-03 14:58:56 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-03 14:59:06 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-03 14:59:17 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-03 15:00:57 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 15:00:57 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-03 15:01:04 INFO  stepDefinitions:47 - The test Data Used is : {APPLICATION TYPE=Application, EXECUTE=YES, UNIQUETESTCASEID=1, PRODUCT TYPE=Lending, PRODUCT OFFER=Westpac Home Loan, AMOUNT=10.00, VALUE=3, FASTPATH=OR097}
+2018-01-03 15:01:16 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-03 15:01:17 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-03 15:01:17 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-03 15:01:21 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-03 15:01:22 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-03 15:01:22 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-03 15:01:28 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-03 15:01:28 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-03 15:01:28 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-03 15:01:33 ERROR TestData:116 - Invalid Input Test Data Parameter referred 
+2018-01-03 15:01:33 ERROR TestData:116 - Invalid Input Test Data Parameter referred 
+2018-01-03 15:01:33 ERROR TestData:116 - Invalid Input Test Data Parameter referred 
+2018-01-03 15:01:44 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-03 15:01:55 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-03 15:02:05 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-03 15:02:16 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-08 22:10:22 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-08 22:10:43 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-08 22:10:43 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-08 22:10:44 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-08 22:11:23 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-08 22:11:23 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-08 22:11:23 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-08 22:11:30 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-08 22:11:30 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-08 22:11:30 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-08 22:12:15 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-08 22:12:26 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-08 22:12:37 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-08 22:12:47 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-08 22:12:55 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-08 22:13:08 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-08 22:13:08 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-08 22:13:08 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-08 22:14:59 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-08 22:15:00 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-08 22:15:00 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-08 22:15:19 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-08 22:15:19 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-08 22:15:20 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-08 22:16:06 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-08 22:16:17 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-08 22:16:28 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-08 22:16:38 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-14 00:23:57 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-14 00:24:59 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:25:00 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:25:01 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:25:09 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-14 00:25:22 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:25:33 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:25:37 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:25:37 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:25:37 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:25:43 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-14 00:26:08 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:26:18 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:26:27 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:26:28 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:26:28 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:26:28 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-14 00:26:39 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:26:47 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:26:48 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:26:48 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:26:49 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:27:00 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-14 00:27:10 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-14 00:27:13 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:27:19 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-14 00:27:24 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:27:35 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-14 00:27:36 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:27:36 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:27:36 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:27:45 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-14 00:27:50 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:27:50 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:27:51 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-14 00:27:57 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-14 00:28:02 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:28:03 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:28:03 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:28:09 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:28:09 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:28:09 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-14 00:28:09 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-14 00:28:14 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:28:14 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:28:14 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:28:14 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:28:14 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:28:14 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-14 00:28:21 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-14 00:30:02 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-14 00:30:28 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:30:29 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:30:29 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:31:08 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:31:08 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:31:09 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-14 00:31:15 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:31:15 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:31:15 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:31:48 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:31:59 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:32:09 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-14 00:32:20 INFO  ElementLocator:56 - xpath : //td[.='Start Application']
+2018-01-14 00:32:26 INFO  ExecutionSettings:269 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-01-14 00:32:50 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:32:51 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:32:51 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:34:00 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:34:00 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-14 00:34:00 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-14 00:34:06 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-14 00:34:06 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-14 00:34:07 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-14 00:34:13 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:34:13 INFO  ElementLocator:56 - xpath : //a[text()='null']
+2018-01-14 00:34:13 INFO  ElementLocator:56 - xpath : //span[.='null']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-14 00:34:13 INFO  ElementLocator:56 - xpath : //td[.='Start Application']

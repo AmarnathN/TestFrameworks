@@ -1,0 +1,907 @@
+2018-01-21 18:43:54 INFO  OriginationTest:116 - log4j properties filepath: D:\eclipse-workspace\TestNG\Artifacts\Settings\log4j.properties
+2018-01-21 18:43:54 INFO  OriginationTest:116 - log4j properties filepath: D:\eclipse-workspace\TestNG\Artifacts\Settings\log4j.properties
+2018-01-21 18:44:00 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 18:44:00 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 18:44:00 INFO  OriginationTest:75 - main : ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)
+2018-01-21 18:44:00 INFO  OriginationTest:75 - main : ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)
+2018-01-21 18:44:00 INFO  OriginationTest:80 - Level1 :ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)
+2018-01-21 18:44:00 INFO  OriginationTest:80 - Level1 :ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)
+2018-01-21 18:44:00 INFO  LoginSteps:26 - Level2 :ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)
+2018-01-21 18:44:00 INFO  LoginSteps:31 - Level3 :ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)
+2018-01-21 18:44:00 INFO  BasePageofOrigination:17 - Level4 :ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)
+2018-01-21 18:44:00 INFO  LoginSteps:26 - Level2 :ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)
+2018-01-21 18:44:00 INFO  LoginSteps:31 - Level3 :ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)
+2018-01-21 18:44:00 INFO  BasePageofOrigination:17 - Level4 :ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)
+2018-01-21 18:44:06 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:06 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:06 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:06 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:06 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:07 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:08 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:08 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:08 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:08 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:26 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 18:44:26 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:26 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:26 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:27 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 18:44:27 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:27 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:28 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:28 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)] -> xpath: //a[@title='Open page']]
+2018-01-21 18:44:28 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:29 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:29 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)] -> xpath: //a[@title='Open page']]
+2018-01-21 18:44:31 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:31 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:31 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:31 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:32 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:33 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:33 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:33 INFO  fluentWait:96 - Target element found
+2018-01-21 18:44:33 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:44:33 INFO  fluentWait:96 - Target element found
+2018-01-21 18:45:12 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (117b03abfb1f132758d1460a26135756)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 18:45:13 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]
+2018-01-21 18:45:13 INFO  fluentWait:96 - Target element found
+2018-01-21 18:45:13 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (cd2efceea70f6b8e19c7eb330e73c945)] -> xpath: //a[text()='Application']]
+2018-01-21 18:45:14 ERROR ElementLocator:50 -  Exception in finding Element with Xpath : //a[text()='Deposit'] java.lang.NullPointerException
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:30 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:30 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:32 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:32 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:34 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:36 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:36 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:36 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:36 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:36 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:36 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:36 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:36 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:36 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:36 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:36 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:36 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:38 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:38 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:39 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:39 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:41 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:41 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:43 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:43 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:45 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:45 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:47 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:47 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:48 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:48 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:50 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:52 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:53 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:53 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:55 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:55 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:57 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:57 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:45:59 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:45:59 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:01 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:01 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:01 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:01 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:01 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:01 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:01 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:01 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:01 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:01 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:01 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:01 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:03 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:03 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:05 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:05 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:07 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:07 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:07 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:07 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:07 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:07 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:07 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:07 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:07 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:07 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:08 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:08 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:08 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:08 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:08 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:08 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:10 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:10 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:29945: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:29945
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793
+2018-01-21 18:46:12 INFO  RetryExec:97 - I/O exception (java.net.BindException) caught when processing request to {}->http://localhost:23793: Address already in use: connect
+2018-01-21 18:46:12 INFO  RetryExec:113 - Retrying request to {}->http://localhost:23793

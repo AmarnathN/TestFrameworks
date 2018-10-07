@@ -1,0 +1,18 @@
+2018-01-24 19:59:34 INFO  GenericUtilities:55 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-01-24 19:59:35 INFO  ExcelUtilities:113 - Total Number Of sheets in WorkBook org.apache.poi.POIXMLProperties@19abe0f7null2
+2018-01-24 19:59:35 INFO  OBPStepDefinitions:34 - The test Data Used is : {EXECUTE=YES, UNIQUETESTCASEID=1, APPLICATIONTYPE=Application, FIRSTPRODUCTTYPE_IFNOTREQUIREDGIVENA=Lending, FITSTPRODUCTOFFERTYPE=Westpac Home Loan, SECONDPRODUCTTYPE_IFNOTREQUIREDGIVENA=Lending, SECONDPRODUCTOFFERTYPE=Westpac Home Loan}
+2018-01-24 19:59:45 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-24 19:59:45 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-24 19:59:46 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-24 19:59:49 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-24 19:59:50 INFO  ElementLocator:56 - xpath : //input[@placeholder='Fast Path']
+2018-01-24 19:59:50 INFO  ElementLocator:56 - xpath : //a[@title='Open page']
+2018-01-24 19:59:55 INFO  ElementLocator:56 - xpath : //input[@placeholder='Username']
+2018-01-24 19:59:55 INFO  ElementLocator:56 - xpath : //input[@placeholder='Password']
+2018-01-24 19:59:55 INFO  ElementLocator:56 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-01-24 20:00:00 INFO  ElementLocator:56 - xpath : //a[text()='Application']
+2018-01-24 20:00:00 INFO  ElementLocator:56 - xpath : //a[text()='Lending']
+2018-01-24 20:00:01 INFO  ElementLocator:56 - xpath : //span[.='Westpac Home Loan']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-24 20:00:02 INFO  ElementLocator:56 - xpath : //a[text()='Lending']
+2018-01-24 20:00:03 INFO  ElementLocator:56 - xpath : //span[.='Westpac Home Loan']/ancestor::td/following-sibling::td//a[@title='Add Product Group']
+2018-01-24 20:00:04 INFO  ElementLocator:56 - xpath : //td[.='Start Application']

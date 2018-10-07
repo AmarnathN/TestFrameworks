@@ -1,0 +1,16 @@
+2018-05-05 17:43:34 INFO  GenericUtilities:66 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-05-05 17:43:34 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-05-05 17:43:34 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-05-05 17:43:34 INFO  ExcelUtilities:113 - Total Number Of sheets in WorkBook org.apache.poi.POIXMLProperties@77bc2e16null3
+2018-05-05 17:43:34 ERROR ExcelUtilities:88 - Error in Reading test Data from row :1In WorkBook : null
+2018-05-05 17:43:34 ERROR ExcelUtilities:90 - java.lang.NullPointerException
+2018-05-05 17:43:34 ERROR ExcelUtilities:88 - Error in Reading test Data from row :2In WorkBook : null
+2018-05-05 17:43:34 ERROR ExcelUtilities:90 - java.lang.NullPointerException
+2018-05-05 17:43:49 INFO  ElementLocator:35 - xpath  :  //input[@placeholder='Username']
+2018-05-05 17:43:49 INFO  ElementLocator:57 - xpath : //input[@placeholder='Username']
+2018-05-05 17:43:49 INFO  ElementLocator:35 - xpath  :  //input[@placeholder='Password']
+2018-05-05 17:43:49 INFO  ElementLocator:57 - xpath : //input[@placeholder='Password']
+2018-05-05 17:43:49 INFO  ElementLocator:35 - xpath  :  //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-05-05 17:43:49 INFO  ElementLocator:57 - xpath : //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])
+2018-05-05 17:43:50 INFO  ElementLocator:35 - xpath  :  //input[@placeholder='Fast Path']
+2018-05-05 17:43:50 INFO  ElementLocator:57 - xpath : //input[@placeholder='Fast Path']

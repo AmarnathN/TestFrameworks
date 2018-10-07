@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example Google Search run">
+  <test name="Simple Search Test">
+    <classes>
+      <class name="authentication.GoogleSearchTest"/>
+    </classes>
+  </test>
+</suite>

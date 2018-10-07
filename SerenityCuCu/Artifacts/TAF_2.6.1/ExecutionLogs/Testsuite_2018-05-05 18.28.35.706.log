@@ -1,0 +1,33 @@
+2018-05-05 18:28:35 INFO  GenericUtilities:66 - log4j properties filepath: D:\eclipse-workspace\SerenityCuCu\Artifacts\Settings\log4j.properties
+2018-05-05 18:28:35 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-05-05 18:28:35 INFO  ExecutionSettings:275 - WARNING: ABORTEXECUTIONIFCHECKPOINTFAILS is turned OFF in TestSuiteExecutionSettings. Hence setting continueTestcaseRun to true. Turn this ON to save on the execution time
+2018-05-05 18:28:35 INFO  ExcelUtilities:116 - Total Number Of sheets in WorkBook 3
+2018-05-05 18:28:35 INFO  ExcelUtilities:39 - {TestCaseDetails={0=EXECUTE, 1=UNIQUETESTCASEID}, ApplicationForm={0=APPLICATIONTYPE, 1=FIRSTPRODUCTTYPE_IFNOTREQUIREDGIVENA, 2=FITSTPRODUCTOFFERTYPE, 3=SECONDPRODUCTTYPE_IFNOTREQUIREDGIVENA, 4=SECONDPRODUCTOFFERTYPE}, FirstProduct_PartyDetails={0=FIRSTPRODUCT_FIRSTAPPLICANT_PARTYTYPE, 1=FIRSTPRODUCT_FIRSTAPPLICANT_PARTYID, 2=FIRSTPRODUCT_FIRSTAPPLICANT_FIRSTNAME, 3=FIRSTPRODUCT_FIRSTAPPLICANT_LASTNAME, 4=FIRSTPRODUCT_SECONDAPPLICANT_PARTYTYPE, 5=FIRSTPRODUCT_SECONDAPPLICANT_PARTYID, 6=FIRSTPRODUCT_SECONDAPPLICANT_FIRSTNAME, 7=FIRSTPRODUCT_SECONDAPPLICANT_LASTNAME}}
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - YES
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - TC01
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Application
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Lending
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Westpac Home Loan
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - NA
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - NA
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Individual
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - NA
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - JOHN
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - WICK
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Individual
+2018-05-05 18:28:35 ERROR ExcelUtilities:91 - Error in Reading test Data from row :1 In WorkBook : null
+2018-05-05 18:28:35 ERROR ExcelUtilities:93 - java.lang.NullPointerException
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - YES
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - TC02
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Application
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Lending
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Westpac Home Loan
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Deposit
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Westpac Transaction
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Individual
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - NA
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - JOHN
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - WICK
+2018-05-05 18:28:35 INFO  ExcelUtilities:85 - Individual
+2018-05-05 18:28:35 ERROR ExcelUtilities:91 - Error in Reading test Data from row :2 In WorkBook : null
+2018-05-05 18:28:35 ERROR ExcelUtilities:93 - java.lang.NullPointerException

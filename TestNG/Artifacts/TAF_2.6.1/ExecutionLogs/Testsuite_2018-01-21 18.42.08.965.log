@@ -1,0 +1,20 @@
+2018-01-21 18:42:09 INFO  OriginationTest:116 - log4j properties filepath: D:\eclipse-workspace\TestNG\Artifacts\Settings\log4j.properties
+2018-01-21 18:42:09 INFO  OriginationTest:116 - log4j properties filepath: D:\eclipse-workspace\TestNG\Artifacts\Settings\log4j.properties
+2018-01-21 18:42:22 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 18:42:22 INFO  DriverManager:62 - Chrome has been opned for testing
+2018-01-21 18:42:22 INFO  OriginationTest:75 - main : ChromeDriver: chrome on XP (61628b5c18328d9d1ecd5443568631ea)
+2018-01-21 18:42:22 INFO  OriginationTest:75 - main : ChromeDriver: chrome on XP (876c4d7df00da0e531c4f35e0dd43b21)
+2018-01-21 18:42:22 INFO  OriginationTest:80 - Level1 :ChromeDriver: chrome on XP (876c4d7df00da0e531c4f35e0dd43b21)
+2018-01-21 18:42:22 INFO  OriginationTest:80 - Level1 :ChromeDriver: chrome on XP (61628b5c18328d9d1ecd5443568631ea)
+2018-01-21 18:42:22 INFO  LoginSteps:26 - Level2 :ChromeDriver: chrome on XP (876c4d7df00da0e531c4f35e0dd43b21)
+2018-01-21 18:42:22 INFO  LoginSteps:30 - Level3 :ChromeDriver: chrome on XP (876c4d7df00da0e531c4f35e0dd43b21)
+2018-01-21 18:42:22 INFO  BasePageofOrigination:17 - Level4 :ChromeDriver: chrome on XP (876c4d7df00da0e531c4f35e0dd43b21)
+2018-01-21 18:42:22 INFO  LoginSteps:26 - Level2 :ChromeDriver: chrome on XP (61628b5c18328d9d1ecd5443568631ea)
+2018-01-21 18:42:22 INFO  LoginSteps:30 - Level3 :ChromeDriver: chrome on XP (61628b5c18328d9d1ecd5443568631ea)
+2018-01-21 18:42:22 INFO  BasePageofOrigination:17 - Level4 :ChromeDriver: chrome on XP (61628b5c18328d9d1ecd5443568631ea)
+2018-01-21 18:42:25 INFO  fluentWait:96 - Target element found
+2018-01-21 18:42:25 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:42:25 INFO  fluentWait:96 - Target element found
+2018-01-21 18:42:25 INFO  WebUIElement:39 - Data has been sent to Element
+2018-01-21 18:42:25 INFO  fluentWait:96 - Target element found
+2018-01-21 18:42:33 INFO  WebUIElement:67 - Clicked on the element [[ChromeDriver: chrome on XP (876c4d7df00da0e531c4f35e0dd43b21)] -> xpath: //input[@value='Sign In' or @value='Submit'] | (//button[@id='loginButton'] | //input[@value='Login'])]

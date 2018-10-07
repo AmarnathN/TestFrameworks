@@ -1,0 +1,769 @@
+<!-- Copyright (c) 2012, Oracle and/or its affiliates. All rights reserved. --><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Oracle Banking Platform</title>
+<link rel="shortcut icon" href="images/common/images/oracle_16.ico" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon" sizes="76x76" href="images/common/images/origination.png" /> 
+<link rel="stylesheet" href="css/SpecialFonts.css" type="text/css" id="myStylesRoboto" /> 
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+<meta http-equiv="X-Frame-Options" content="deny" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<noscript>&lt;meta http-equiv="refresh" content="0; url='redirect.html'" /&gt;</noscript>
+<script language="JavaScript" type="text/javascript">
+	if (window.top !== window.self) window.top.location.replace(window.self.location.href);
+    // ** ARRAYS FOR ALPHABETS, NUMBERS AND SPECIAL CHARACTERS **
+    var alphaArray = new Array("q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m");
+    var numArray = new Array("7", "8", "9", "4", "5", "6", "1", "2", "3", "0");
+    var SpCharArray = new Array("!", "@", "#", "$", "%", "&amp;", "*", "(", ")", "+", "=", "?", ".");
+
+    var currSpArray = new Array();
+    var currAlphaArray = new Array();
+    var currNumArray = new Array();
+    var currControlArray = new Array();
+
+    // ** INTERMEDIATE ARRAYS WHICH WILL CARRY THE RANDOMIZED VALUES **
+    var randomAlpha = chooseNum(26, alphaArray);
+    var randomNum = chooseNum(10, numArray);
+    var randomSpChar = chooseNum(13, SpCharArray);
+
+    // ** THE FINAL ARRAYS WHICH WILL BE CALLED FROM THE MAIN SIGNON PAGE **
+    var finalAlphaImage = new Array();
+    var finalNumImage = new Array();
+    var finalSpCharImage = new Array();
+
+    // ** OTHER VARIABLES **
+    var entry_field = "j_password";
+    var form_name = "frmLogon";
+    var isUpper = false;
+    var timeoutObj;
+    var selectedObj;
+    var isRandom = true;
+    var isMouseClicked = false;
+    var isProcessing = false;
+    var HOVER_TIMEOUT = 2000;
+
+    //------------------------------------------------------------------------------
+    function showValue(p_obj) {
+        if (isProcessing) {
+            return false;
+        }
+//        if (document.getElementById("elemC4").checked) {
+//            clearTimeout(timeoutObj);
+//            timeoutObj = null;
+//        }
+        str = document.forms[form_name].elements[entry_field].value;
+        var l_tmp = p_obj.value;
+        if (p_obj.value == "&amp;") {
+            l_tmp = "&amp;";
+        }
+        document.forms[form_name].elements[entry_field].value = str + l_tmp;
+        document.forms[form_name].elements[entry_field].focus();
+        if (isRandom) {
+            doRandomize();
+        }
+        return false;
+    }
+
+    /**
+     * THIS FUNCTION WILL RANDAMIZE THE ARRAYS
+     * THIS IS THE MAIN FUNCTION TO RANDOMIZE THE ARRAYS THAT ARE PASSED
+     * @PARAM nums, numArr
+     **/
+    function chooseNum(nums, numArr) {
+        if (nums &gt; numArr.length) {
+            return false;
+        }
+
+        var chooseArr = new Array();
+        var tempArr = new Array();
+        for (var l_i = 0;l_i &lt; numArr.length;l_i++) {
+            tempArr[l_i] = numArr[l_i];
+        }
+
+        for (var i = 0;i &lt; nums;i++) {
+            chooseArr[chooseArr.length] = tempArr[Math.floor((tempArr.length - 1) * Math.random())];
+            var temp = chooseArr[chooseArr.length - 1];
+            for (var j = 0;j &lt; tempArr.length;j++) {
+                if (tempArr[j] == temp) {
+                    tempArr[j] = null;
+                    var tempArr2 = new Array();
+                    for (var k = 0;k &lt; tempArr.length;k++)
+                        if (tempArr[k] != null)
+                            tempArr2[tempArr2.length] = tempArr[k];
+                    tempArr = tempArr2;
+                    break;
+                }
+            }
+        }
+        return chooseArr;
+    }
+
+    /**
+     * THE FOLLOWING FUNCTIONS ARE CALLED TO DISPLAY THE IMAGES ON THE SIGNON PAGE.
+     * THE FUNCTIONS ARE
+     * imageAlphaOnPage() :: FOR ALPHABETS
+     * imageNumOnPage()   :: FOR NUMBERS
+     * imageSpCharOnPage():: FOR SPECIAL CHARAHTERS
+     *
+     * @PARAM i
+     **/
+
+    function imageAlphaOnPage(p_i) {
+        for (var n = 0;n &lt; randomAlpha.length + 1;n++) {
+            finalAlphaImage[n] = randomAlpha[p_i];
+        }
+        document.write('&lt;input type="button" class="virtualButtons" value="' + finalAlphaImage[p_i] + '" id="elemA' + p_i + '" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" OnClick="return showValue(this);"/&gt;');
+    }
+    //------------------------------------------------------------------------------
+    function imageNumOnPage(p_i) {
+        for (var n = 0;n &lt; randomNum.length + 1;n++) {
+            finalNumImage[n] = randomNum[p_i];
+        }
+        document.write('&lt;input type="button" class="virtualButtons" value="' + finalNumImage[p_i] + '" id="elemN' + p_i + '" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" OnClick="return showValue(this);"/&gt;');
+    }
+    //------------------------------------------------------------------------------
+    function imageSpCharOnPage(p_i) {
+        for (var n = 0;n &lt; randomSpChar.length + 1;n++) {
+            finalSpCharImage[n] = randomSpChar[p_i];
+        }
+        document.write('&lt;input type="button" class="virtualButtons" value="' + finalSpCharImage[p_i] + '" id="elemS' + p_i + '" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" OnClick="return showValue(this);"/&gt;');
+    }
+
+    /**
+     * This function is used to change all characters on the virtual keyboard to an
+     * asterisk
+     **/
+    function changeToStar() {
+        if (isProcessing) {
+            return false;
+        }
+
+        for (var l_i = 0;l_i &lt; SpCharArray.length;l_i++) {
+            currSpArray[l_i] = document.getElementById('elemS' + l_i).value;
+            document.getElementById('elemS' + l_i).value = "*";
+        }
+        for (var l_i = 0;l_i &lt; alphaArray.length;l_i++) {
+            currAlphaArray[l_i] = document.getElementById('elemA' + l_i).value;
+            document.getElementById('elemA' + l_i).value = "*";
+        }
+        for (var l_i = 0;l_i &lt; numArray.length;l_i++) {
+            currNumArray[l_i] = document.getElementById('elemN' + l_i).value;
+            document.getElementById('elemN' + l_i).value = "*";
+        }
+        for (var l_i = 0;l_i &lt; 4;l_i++) {
+            currControlArray[l_i] = document.getElementById('elemC' + l_i).value;
+            document.getElementById('elemC' + l_i).value = "*";
+        }
+        isMouseClicked = true;
+        return false;
+    }
+
+    /**
+     * This function changes back the characters from asterisk to their original values
+     **/
+    function changeBack() {
+        if (!isMouseClicked) {
+            return false;
+        }
+        for (var l_i = 0;l_i &lt; SpCharArray.length;l_i++) {
+            document.getElementById('elemS' + l_i).value = currSpArray[l_i];
+        }
+        for (var l_i = 0;l_i &lt; alphaArray.length;l_i++) {
+            if (isUpper) {
+                document.getElementById('elemA' + l_i).value = currAlphaArray[l_i].toUpperCase();
+            }
+            else {
+                document.getElementById('elemA' + l_i).value = currAlphaArray[l_i].toLowerCase();
+            }
+        }
+        for (var l_i = 0;l_i &lt; numArray.length;l_i++) {
+            document.getElementById('elemN' + l_i).value = currNumArray[l_i];
+        }
+        for (var l_i = 0;l_i &lt; 4;l_i++) {
+            document.getElementById('elemC' + l_i).value = currControlArray[l_i];
+        }
+        isMouseClicked = false;
+        isProcessing = false;
+        return false;
+    }
+
+    /**
+     * This function changes a flag indicating whether random characters should be
+     * displayed on every click or not.
+     **/
+    function setRandom() {
+        if (isRandom) {
+            isRandom = false;
+            document.getElementById('elemC3').value = "Mixed";
+        }
+        else {
+            isRandom = true;
+            document.getElementById('elemC3').value = "Not Mixed";
+        }
+        doRandomize();
+        return false;
+    }
+
+    /**
+     * This function randomizes the characters on the virtual keyboard.
+     **/
+    function doRandomize() {
+        var l_sArray;
+        var l_aArray;
+        var l_nArray;
+
+        if (!isRandom) {
+            l_aArray = alphaArray;
+            l_nArray = numArray;
+            l_sArray = SpCharArray;
+        }
+        else {
+            l_aArray = chooseNum(26, alphaArray);
+            l_nArray = chooseNum(10, numArray);
+            l_sArray = chooseNum(13, SpCharArray);
+        }
+
+        for (var l_i = 0;l_i &lt; l_sArray.length;l_i++) {
+            if (l_sArray[l_i] == "&amp;") {
+                document.getElementById('elemS' + l_i).value = "&amp;";
+            }
+            else {
+                document.getElementById('elemS' + l_i).value = l_sArray[l_i];
+            }
+        }
+        for (var l_i = 0;l_i &lt; l_aArray.length;l_i++) {
+            if (isUpper) {
+                document.getElementById('elemA' + l_i).value = l_aArray[l_i].toUpperCase();
+            }
+            else {
+                document.getElementById('elemA' + l_i).value = l_aArray[l_i].toLowerCase();
+            }
+        }
+        for (var l_i = 0;l_i &lt; l_nArray.length;l_i++) {
+            document.getElementById('elemN' + l_i).value = l_nArray[l_i];
+        }
+        return false;
+    }
+
+    /**
+     * This function sets a flag indicating whether alphabets are to be displayed in
+     * upper case of lower case.
+     **/
+    function setCase() {
+        if (isUpper) {
+            isUpper = false;
+            document.getElementById('elemC0').value = "Upper";
+        }
+        else {
+            isUpper = true;
+            document.getElementById('elemC0').value = "Lower";
+        }
+        changeCase();
+    }
+
+    /**
+     * This function changes the case of all alphabets.
+     **/
+    function changeCase() {
+        var l_aArray;
+
+        if (!isRandom) {
+            l_aArray = alphaArray;
+        }
+        else {
+            l_aArray = chooseNum(26, alphaArray);
+        }
+
+        for (var l_i = 0;l_i &lt; l_aArray.length;l_i++) {
+            if (isUpper) {
+                document.getElementById('elemA' + l_i).value = l_aArray[l_i].toUpperCase();
+            }
+            else {
+                document.getElementById('elemA' + l_i).value = l_aArray[l_i].toLowerCase();
+            }
+        }
+        return false;
+    }
+
+    /**
+     * This function is triggered when the user starts hovering a particular key.
+     **/
+    function startHover(p_obj) {
+//        if (document.getElementById("elemC4").checked) {
+//            if (timeoutObj != null) {
+//                clearTimeout(timeoutObj);
+//            }
+//            selectedObj = p_obj;
+//            timeoutObj = setTimeout("showVal()", HOVER_TIMEOUT);
+//        }
+    }
+
+    /**
+     * This function clears the timer. It gets triggered whenever a user moves out
+     * his mouse from a key.
+     **/
+    function stopHover() {
+//        if (document.getElementById("elemC4").checked) {
+//            clearTimeout(timeoutObj);
+//            timeoutObj = null;
+//            changeBack();
+//        }
+    }
+
+    /**
+     *  This function is called whenever a timeout value exceeds. It is a dummy
+     *  function that is used to call the
+     */
+    function showVal() {
+        if (isMouseClicked) {
+            return false;
+        }
+        showValue(selectedObj);
+        changeToStar();
+        selectedObj = null;
+        isProcessing = true;
+        setTimeout("stopHover()", 500);
+    }
+
+    function fLogon() {
+        if (document.frmLogon.j_username.value == "") {
+            alert("Please enter User Name.");
+            document.frmLogon.j_username.focus();
+            return false;
+        }
+        if (document.frmLogon.j_password.value == "") {
+            alert("Please enter Password.");
+            document.frmLogon.j_password.focus();
+            return false;
+        }
+        //        fetchUserPass();
+        return true;
+    }
+
+    function setheight() {
+        var isNS6 = (!document.all &amp;&amp; document.getElementById) ? true : false;
+
+        if (isNS6 == true)
+            document.getElementById('TDlogin').style.height = '350px';
+        else 
+            document.getElementById('TDlogin').style.height = '100%';
+    }
+
+    function DeletePwd() {
+        if (document.frmLogon.chksecmod.checked) {
+            var strNumField = new String(document.frmLogon.j_password.value);
+            document.frmLogon.j_password.value = strNumField.substring(0, strNumField.length - 1);
+            document.frmLogon.j_password.id = "";
+            doRandomize();
+        }
+        return false;
+    }
+
+    function ClearPwd() {
+        if (document.frmLogon.chksecmod.checked) {
+            document.frmLogon.j_password.value = "";
+            doRandomize();
+        }
+        return false;
+    }
+
+    function fetchUserPass() {
+        var successStatus = 200;
+        var readyStateSuccess = 4;
+        var authImgComp = document.getElementById('newDiv');
+        var x;
+        if (authImgComp != null) {
+            x = authImgComp.childNodes[0];
+        }
+        if (x != null) {
+            while (authImgComp.firstChild) {
+                authImgComp.removeChild(authImgComp.firstChild);
+            }
+        }
+        if (fLogon()) {
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            }
+            else {
+                alert("This browser not supported. Browsers supported : IE7+, Firefox, Chrome, Safari");
+                return false;
+            }
+            xmlhttp.open("POST", "j_security_check", false);
+            var paramString = "j_username=" + document.frmLogon.j_username.value + "&amp;j_password=" + document.frmLogon.j_password.value;
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == readyStateSuccess) {
+                    if (xmlhttp.status == successStatus) {
+                        //window.location.href = "../com.ofss.fc.ui.view/faces/main.jspx"
+                        document.forms["frmLogon"].submit();
+                    }
+                    else {
+                        var oImg;
+                        var txt;
+                        var span;
+
+                        oImg = document.createElement("img");
+                        oImg.setAttribute('src', 'images/common/qualifier/error_16_qual.png');
+                        authImgComp.appendChild(oImg);
+                        txt = document.createTextNode("Authentication denied.");
+                        span = document.createElement('span');
+                        span.className = "AFError"
+                        span.appendChild(txt);
+                        authImgComp.appendChild(span);
+                        oImg = document.createElement("br");
+                        authImgComp.appendChild(oImg);
+                        txt = document.createTextNode("Invalid Username or Password.");
+                        span = document.createElement('span');
+                         span.className = "AFError AFSpacer"
+                        span.appendChild(txt);
+                        authImgComp.appendChild(span);
+                    }
+                }
+            }
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.send(paramString);
+        }
+    }
+
+    function SecurityWarning() {
+        var keyBoard = document.getElementById('login-keyboard').getElementsByTagName("input");
+        if (document.frmLogon.chksecmod.checked) {
+            document.getElementById('virtualBox').style.display = '';
+            //document.frmLogon.elemC4.checked = true;
+            //document.frmLogon.elemC4.disabled = false;
+            document.frmLogon.j_password.readOnly = true;
+            document.frmLogon.j_password.blur();
+            /*for (i = 0;i &lt;= keyBoard.length - 1;i++) {
+                keyBoard[i].disabled = false;
+                keyBoard[i].style.color = '#000000';
+            }*/
+        }
+        else {
+            document.getElementById('virtualBox').style.display = 'none';
+			//document.frmLogon.elemC4.checked = false;
+            //document.frmLogon.elemC4.disabled = true;
+            document.frmLogon.j_password.readOnly = false;
+            /*for (i = 0;i &lt;= keyBoard.length - 1;i++) {
+                keyBoard[i].disabled = true;
+                keyBoard[i].style.color = '#AAAAAA';
+            }*/
+            if (false == confirm("Virtual keyboard is recommended to protect your password. \nAre you sure you want to use normal keyboard?")) {
+                document.frmLogon.chksecmod.checked = true;
+                document.getElementById('virtualBox').style.display = '';
+				//document.frmLogon.elemC4.checked = true;
+                //document.frmLogon.elemC4.disabled = false;
+                document.frmLogon.j_password.readOnly = true;
+                document.frmLogon.j_password.blur();
+               /* for (i = 0;i &lt;= keyBoard.length - 1;i++) {
+                    keyBoard[i].disabled = false;
+                    keyBoard[i].style.color = '#000000';
+                }*/
+            }
+        }
+        document.frmLogon.j_password.value = "";
+        //document.frmLogon.j_username.value = "";
+        document.frmLogon.j_password.focus();
+    }
+
+    function disableAll() {
+        var keyBoard = document.getElementById('login-keyboard').getElementsByTagName("input");
+        if (document.frmLogon.chksecmod.checked) {
+            document.getElementById('virtualBox').style.display='';
+			//document.frmLogon.elemC4.checked = true;
+            //document.frmLogon.elemC4.disabled = false;
+            document.frmLogon.j_password.readOnly = true;
+            document.frmLogon.j_password.blur();
+            /*for (i = 0;i &lt;= keyBoard.length - 1;i++) {
+                keyBoard[i].disabled = false;
+                keyBoard[i].style.color = '#000000';
+            }*/
+        }
+        else {
+            document.getElementById('virtualBox').style.display='none';
+			//document.frmLogon.elemC4.checked = false;
+            //document.frmLogon.elemC4.disabled = true;
+            document.frmLogon.j_password.readOnly = false;
+            /*for (i = 0;i &lt;= keyBoard.length - 1;i++) {
+                keyBoard[i].disabled = true;
+                keyBoard[i].style.color = '#AAAAAA';
+            }*/
+        }
+        document.frmLogon.j_username.value = "";
+        document.frmLogon.j_username.focus();
+    }
+	function closeVirtualBox(){
+		document.getElementById('virtualBox').style.display='none';
+		document.frmLogon.j_password.readOnly = false;
+		document.frmLogon.chksecmod.checked = false;
+	}
+    function initialize() {
+       /* var screenHeight= document.body.offsetHeight;
+		document.body.height = document.body.offsetHeight*/
+		document.frmLogon.j_password.focus();
+        document.frmLogon.j_username.focus();
+        if (document.frmLogon.chksecmod.checked) {
+            document.frmLogon.j_password.readOnly = true;
+            document.frmLogon.j_password.blur();
+        }
+        else {
+            document.frmLogon.j_password.readOnly = false;
+            var keyBoard = document.getElementById('login-keyboard').getElementsByTagName("BUTTON");
+            for (i = 0;i &lt;= keyBoard.length - 1;i++) {
+                keyBoard[i].disabled = true;
+                keyBoard[i].style.color = '#AAAAAA';
+            }
+        }
+    }
+
+    function keypressed() {
+		 if (event.keyCode == '13') {
+            return fetchUserPass()
+        }
+    }
+
+    function enterPress(e) {
+        var key;
+        if (window.event)
+            key = window.event.keyCode;
+        else 
+            key = e.which;
+        if (key == '13') {
+            return fetchUserPass()
+        }
+    }
+  </script>
+</head>
+<body onload="initialize();setheight();document.frmLogon.j_username.focus();disableAll();" onkeyup="keypressed()">
+<form name="frmLogon" method="post" action="j_security_check" autocomplete="off" onsubmit="return fLogon()">
+<div class="ui-loginModule">	
+<div class="ui-loginSection" style="">
+	<div class="ui-loginBody">
+		<div class="ui-firstcol">
+		
+		</div>
+		<div class="ui-seccol">
+		<div class="ui-logo-container">
+		<div style="float: left; position: relative; padding-top: 170px; padding-left: 20px;"><img src="images/common/login/logo.png" /></div>
+			
+			<div style="clear:both"></div>
+		</div>
+		<div class="ui-loginContent">
+			
+                         
+			<div id="TDlogin" style="height: 350px;">
+		<div class="ui-login-cont-box">
+			<div id="newDiv" class="ErrorTitle"><img src="images/common/qualifier/error_16_qual.png" /><span class="AFError">Authentication denied.</span><br /><span class="AFError AFSpacer">Invalid Username or Password.</span></div>
+			<div class="ui-formlayout ui-col" style="">
+					<table>
+						<tbody>
+							<tr>
+								<td class="ui-formlabel"></td>
+								<td class="ui-formvalue"><input type="text" placeholder="Username" title="Username" name="j_username" class="inputbg" tabindex="1" onkeypress="enterPress(event)" /></td>
+							</tr>
+							<tr>
+								<td class="ui-formlabel"></td>
+								<td class="ui-formvalue"><input type="password" placeholder="Password" class="inputbg" name="j_password" tabindex="2" onkeypress="enterPress(event)" />
+                                                                                             
+                                                                </td>
+							</tr>
+							<tr>
+								<td class="ui-formlabel"></td>
+							 <td class="ui-formvalue"><input value="Sign In" name="button" class="ui-btn-blue" onclick="return fetchUserPass();" tabindex="4" type="button" /> </td>
+							</tr><tr>
+								<td class="ui-formlabel"> </td>
+								<td class="ui-formvalue ui-radiobutton-inline">
+									<div class="ui-radiobutton-item">
+										<input name="chksecmod" type="checkbox" id="securitykeyboard" onclick="return SecurityWarning();" tabindex="4" />
+										<label for="securitykeyboard" class="ui-valign-top ui-virtual-copy-txt">Use Virtual Keyboard</label>
+									</div>
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+			</div>	
+			<div class="ui-versionInfo">
+                        <span class="ui-virtual-copy-txt">V.C : 2.6.1.0.0 </span>
+                        <span class="ui-virtual-copy-txt">Copyright 2011, 2017, Oracle and/or its affiliates.</span>
+                        <span class="ui-virtual-copy-txt">All rights reserved</span>
+		</div>
+		<div style="margin-top:10px">
+                       <span class="ui-virtual-copy-txt" style="color: rgb(255, 255, 255); padding-left: 35px;">Best Viewed With 100% Browser Zoom</span>
+		</div>
+				</div>	
+				 <div class="" style="width:100%; float:left">
+				   <div id="virtualBox" class="virtualBox" style="display: none;">
+				   <div class="vertualboxContent">
+		            <div class="title"><span>Virtual Keyboard</span>
+					<a href="#" style="float:right;margin-right: 5px;" onclick="closeVirtualBox()"><img src="images/common/login/cancel_16X16.png" alt="Close" /></a>	
+					<!--input type="button" class="close" onclick="closeVirtualBox()" value="Close"/--></div>
+		            <div class="contentBox">
+					 <!--Keyboard Display Start-->
+		             <div id="login-keyboard" style="position:relative; left:0px; top:0px; z-index:3">
+		              <table cellpadding="0" cellspacing="0" align="center">
+		               <tbody><tr>
+		                <td align="center">
+		                 <div id="login-keyboard-special">
+		                 <!--  <table cellpadding="1" cellspacing="1" width="75%"> -->
+		                   <ul>
+		                    <script language="JavaScript" type="text/javascript">
+		                      for (var i = 0;i &lt; 13;i++) {
+		                          document.write('&lt;li&gt;&lt;div&gt;');
+		                          imageSpCharOnPage(i);
+		                          document.write('&lt;/div&gt;&lt;/li&gt;');
+		                      }
+		                    </script><li><div><input type="button" class="virtualButtons" value="*" id="elemS0" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="@" id="elemS1" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value=")" id="elemS2" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="?" id="elemS3" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="!" id="elemS4" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="$" id="elemS5" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="(" id="elemS6" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="&amp;" id="elemS7" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="#" id="elemS8" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="%" id="elemS9" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="=" id="elemS10" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="+" id="elemS11" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="." id="elemS12" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                   </ul>
+		                  <!-- </table> -->
+		                 </div>
+		                </td>
+		                <td rowspan="2" style="vertical-align:top;">
+		                 <div id="login-keyboard-numeric" style="">
+		                 <!-- <table cellpadding="1" cellspacing="1"> -->
+		                   <ul>
+		                    <script language="JavaScript" type="text/javascript">
+		                      for (var i = 0;i &lt; 3;i++) {
+		                          document.write('&lt;li&gt;&lt;div&gt;');
+		                          imageNumOnPage(i);
+		                          document.write('&lt;/div&gt;&lt;/li&gt;');
+		                      }
+		                    </script><li><div><input type="button" class="virtualButtons" value="9" id="elemN0" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="5" id="elemN1" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="1" id="elemN2" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                   </ul>
+		                    
+		                   <ul>
+		                    <script language="JavaScript" type="text/javascript">
+		                      for (var i = 3;i &lt; 6;i++) {
+		                          document.write('&lt;li&gt;&lt;div&gt;');
+		                          imageNumOnPage(i);
+		                          document.write('&lt;/div&gt;&lt;/li&gt;');
+		                      }
+		                    </script><li><div><input type="button" class="virtualButtons" value="2" id="elemN3" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="3" id="elemN4" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="7" id="elemN5" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                   </ul>
+		                    
+		                   <ul>
+		                    <script language="JavaScript" type="text/javascript">
+		                      for (var i = 6;i &lt; 9;i++) {
+		                          document.write('&lt;li&gt;&lt;div&gt;');
+		                          imageNumOnPage(i);
+		                          document.write('&lt;/div&gt;&lt;/li&gt;');
+		                      }
+		                    </script><li><div><input type="button" class="virtualButtons" value="8" id="elemN6" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="4" id="elemN7" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="6" id="elemN8" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                   </ul>
+		                    
+		                   <ul>
+		                    <li class="blank"> </li>
+		                    <script language="JavaScript" type="text/javascript">
+		                      for (var i = 9;i &lt; 10;i++) {
+		                          document.write('&lt;li&gt;&lt;div&gt;');
+		                          imageNumOnPage(i);
+		                          document.write('&lt;/div&gt;&lt;/li&gt;');
+		                      }
+		                    </script><li><div><input type="button" class="virtualButtons" value="0" id="elemN9" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                   <li class="blank"> </li>
+		                   </ul>
+		                  <!-- </table> -->
+		                 </div>
+		                 
+		                </td>
+		               </tr>
+		                
+		               <tr>
+		                <td align="center" valign="top">
+		                 <div id="login-keyboard-alpha">
+		                  <table cellpadding="1" cellspacing="1" align="center">
+		                   <tbody><tr>
+		                    <td align="center">
+		                     <!-- <table cellpadding="1" cellspacing="1" align="center"> -->
+		                      <ul align="center" id="alpha1">
+		                       <script language="JavaScript" type="text/javascript">
+		                         for (var i = 0;i &lt; 10;i++) {
+		                             document.write('&lt;li&gt;&lt;div&gt;');
+		                             imageAlphaOnPage(i);
+		                             document.write('&lt;/div&gt;&lt;/li&gt;');
+		                         }
+		                       </script><li><div><input type="button" class="virtualButtons" value="n" id="elemA0" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="x" id="elemA1" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="d" id="elemA2" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="h" id="elemA3" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="k" id="elemA4" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="f" id="elemA5" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="q" id="elemA6" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="l" id="elemA7" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="s" id="elemA8" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="y" id="elemA9" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                      </ul>
+		                     <!-- </table> -->
+		                    </td>
+		                   </tr>
+		                    
+		                   <tr>
+		                    <td align="center" style="width:75%; background:none">
+		                     <!-- <table cellpadding="1" cellspacing="1" align="center"> -->
+		                      <ul align="center" id="alpha2">
+		                       <script language="JavaScript" type="text/javascript">
+		                         for (var i = 10;i &lt; 19;i++) {
+		                             document.write('&lt;li&gt;&lt;div&gt;');
+		                             imageAlphaOnPage(i);
+		                             document.write('&lt;/div&gt;&lt;/li&gt;');
+		                         }
+		                       </script><li><div><input type="button" class="virtualButtons" value="v" id="elemA10" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="o" id="elemA11" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="t" id="elemA12" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="e" id="elemA13" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="b" id="elemA14" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="w" id="elemA15" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="j" id="elemA16" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="r" id="elemA17" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="p" id="elemA18" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                      </ul>
+		                     <!-- </table> -->
+		                    </td>
+		                   </tr>
+		                    
+		                   <tr>
+		                    <td align="center">
+		                     <!-- <table cellpadding="1" cellspacing="1" align="center"> -->
+		                      <ul align="center" id="alpha3">
+		                       <script language="JavaScript" type="text/javascript">
+		                         for (var i = 19;i &lt; 26;i++) {
+		                             document.write('&lt;li&gt;&lt;div&gt;');
+		                             imageAlphaOnPage(i);
+		                             document.write('&lt;/div&gt;&lt;/li&gt;');
+		                         }
+		                       </script><li><div><input type="button" class="virtualButtons" value="u" id="elemA19" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="g" id="elemA20" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="c" id="elemA21" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="a" id="elemA22" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="i" id="elemA23" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="z" id="elemA24" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li><li><div><input type="button" class="virtualButtons" value="m" id="elemA25" onmouseover="startHover(this);" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack(),stopHover();" onclick="return showValue(this);" /></div></li>
+		                      </ul>
+		                     <!-- </table> -->
+		                    </td>
+		                   </tr>
+		                  </tbody></table>
+		                 </div>
+		                </td>
+		               </tr>
+		                
+		               <tr>
+		                <td id="login-keyboard-controls" style="" colspan="2">
+		                <!--  <table cellpadding="1" cellspacing="1" align=""> -->
+		                  <ul align="center">
+		                   <li><div>
+		                    <input type="button" class="buttons" value="Upper" id="elemC0" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack();" onclick="setCase();" />
+		                   </div></li>
+		                   <li><div>
+		                    <input type="button" class="buttons" value="Delete" id="elemC1" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack();" onclick="DeletePwd();" />
+		                   </div></li>
+		                   <li><div>
+		                    <input type="button" class="buttons" value="Clear All" id="elemC2" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack();" onclick="ClearPwd();" />
+		                   </div></li>
+		                   <li><div>
+		                    <input type="button" class="buttons" value="Not Mixed" id="elemC3" onmousedown="return changeToStar();" onmouseup="return changeBack();" onmouseout="return changeBack();" onclick="setRandom();" />
+		                   </div></li>
+		                  </ul>
+		                 <!-- </table> -->
+		                </td>
+		               </tr>
+		              </tbody></table>
+		             </div>
+		            </div>
+		           </div>
+				   </div>
+		          <!-- </td>
+		         </tr>
+		        </table> -->
+			</div>
+			</div>
+			
+		</div>
+		<div style="clear:both"></div>
+	</div>
+</div>	
+</div>
+</form>
+
+
+
+
+
+</body></html>
